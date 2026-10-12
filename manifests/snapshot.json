@@ -1,0 +1,18 @@
+{
+ "id": "snap-20261011T2103Z-f674b4e775a4",
+ "time": "2026-10-11T21:03:49Z",
+ "done_records": 150688,
+ "superseded_records": 365,
+ "parked": 1065,
+ "spec_lines": 151540,
+ "gate_lines": 1863,
+ "sha256": {
+  "done_listing.tsv": "71d23175c57d1b37f84161d615a7875ad07bc892d2feb3e3f7d0edbc91377e3a",
+  "superseded.txt": "0940baa070b06f0a8b786e3e4b79f512b40d23c5ffea9926df7282349cc04bc5",
+  "parked.txt": "eed77c72a444612801984efb6846a9c46263797a85707bd68e39b78882ba68fd",
+  "packages.jsonl": "a8831e957e10da81b53622c35996368b4e547738d0f490f31812eb2849a63012",
+  "gates.jsonl": "88435f7e3531fb5d36338089b3157f163790be4bfd8f6d16109a97f2b2b64f87",
+  "done_ids.json": "9de3e84f95517c1deda49c945b94d78135e4fb5eb57fac376b415b8035f0414c"
+ },
+ "verifier_db_sha256": "69b912204e38e5264fc4ea1a4d71274064d080f02fa89c451b5013f04a188d96"
+}

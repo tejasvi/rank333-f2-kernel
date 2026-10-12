@@ -1,0 +1,5 @@
+# kmod_audit.py --root R22K.Final (compositional walk over the top store and the final LEAN_PATH), final build 2026-10-11T01:30:53Z; snapshot snap-20261011T2103Z-f674b4e775a4
+statement check: 707 NS.EXT obligations, 707 in a public statement
+modules: 20470 reached of 694885 manifests; units 9198; kernel 750.5 s; wall 225763.2 s; max RSS 12.63 GB; external obligations 979280; skipped
+not reached from the root: 674415 (e.g. KC.h420_0_1_L0, KC.h420_10_11_L0, KC.h420_11_41_L0, KC.h420_173_174_L0, KC.h420_174_175_L0)
+PASS

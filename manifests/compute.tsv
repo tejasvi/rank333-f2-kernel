@@ -1,0 +1,16 @@
+# final set, snapshot snap-20261011T2103Z-f674b4e775a4: module-build CPU-hours (user+sys, elaboration plus kernel), modules and tarball bytes by group (sums of packages.tsv.zst)
+group	packages	modules	cpu_hours	tarball_bytes
+c436/c422/held	93728	5613466	269842.6	17196201977
+case II	18108	5039652	167009.6	14411180751
+classes	16566	616895	44290.7	2057188478
+held giants (split)	1483	1052688	18737.4	2594176787
+EXT	16231	1498479	15660.0	2678028024
+EXT giant	3887	324839	11089.8	619198507
+point	97	27064	2454.2	326881469
+case II join	2	4677	203.6	16663072
+case I13	80	4607	186.1	19841210
+e1g aggregation	451	2305	9.4	102008545
+EXT tops	23	754	9.1	35656671
+case I	1	149	6.1	531939
+class aggregation	21	342	5.2	3449403
+TOTAL	150678	14185917	529503.8	40061006833

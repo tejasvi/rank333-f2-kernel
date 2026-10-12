@@ -1,0 +1,17 @@
+R22K.Final.rank_ge_23 : Top.RankGe23
+@[expose] def Top.RankGe23 : Prop :=
+∀ (n : ℕ) (a b c : Fin n → RootSound.M3), RootSound.IsDecomp a b c → 23 ≤ n
+@[expose] def RootSound.IsDecomp : {n : ℕ} →
+  (Fin n → RootSound.M3) → (Fin n → RootSound.M3) → (Fin n → RootSound.M3) → Prop :=
+fun {n} a b c =>
+  ∀ (i j j' k k' i' : Fin 3), ∑ s, a s i j * b s j' k * c s k' i' = if j = j' ∧ k = k' ∧ i = i' then 1 else 0
+@[reducible, expose] def RootSound.M3 : Type :=
+Matrix (Fin 3) (Fin 3) RootSound.F2
+@[expose] def RootSound.F2 : Type :=
+ZMod 2
+'R22K.Final.rank_ge_23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R22K.Final.rank_eq_23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R22K.Final.mm_equiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R22K.Final.table_23' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R22K.Final.recursive_23' depends on axioms: [propext, Classical.choice, Quot.sound]
+imported modules: 17017; imported constants: 1576388

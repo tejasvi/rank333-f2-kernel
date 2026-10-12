@@ -1,0 +1,3 @@
+{"module": "PLX.c436.xf0657888c1c76c58.H", "src": "src/PLX/c436/xf0657888c1c76c58/H.lean", "cwd": "src", "tier": "ext", "kind": "table", "deps": [], "pred_s": 5.0, "pred_gb": 0.6}
+{"module": "PLX.c436.xf0657888c1c76c58.P4", "src": "src/PLX/c436/xf0657888c1c76c58/P4.lean", "cwd": "src", "tier": "ext", "kind": "part", "deps": ["PLX.c436.xf0657888c1c76c58.H"], "pred_s": 304.3, "pred_gb": 1.57}
+{"module": "PLX.c436.xf0657888c1c76c58.P5", "src": "src/PLX/c436/xf0657888c1c76c58/P5.lean", "cwd": "src", "tier": "ext", "kind": "part", "deps": ["PLX.c436.xf0657888c1c76c58.H"], "pred_s": 33.3, "pred_gb": 1.57}

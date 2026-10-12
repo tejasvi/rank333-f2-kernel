@@ -1,0 +1,17 @@
+# private-sample re-check (leanchecker replay of sampled private parts; sample rate 0.001 per package at finalize), snapshot snap-20261011T2103Z-f674b4e775a4
+# class PASS means leanchecker rc 0 and the sample's sha256 equals the build-time private hash (KMH); class "not checkable (policy)" means the
+# module imports a sibling with `import all` whose private part the storage policy deletes; class "skipped" means the package is not done (superseded)
+private-sample census (9538 samples), snapshot snap-20261011T2103Z-f674b4e775a4: PASS 5914, not checkable (policy) 3258, skipped (superseded) 366
+  EXT                  PASS 974, not checkable (policy) 502, skipped (superseded) 1
+  EXT giant            PASS 332, not checkable (policy) 9, skipped (superseded) 1
+  EXT tops             not checkable (policy) 2
+  c436/c422/held       PASS 4165, not checkable (policy) 2498, skipped (superseded) 362
+  class aggregation    not checkable (policy) 1
+  classes              PASS 431, not checkable (policy) 229
+  e1g aggregation     not checkable (policy) 5
+  point                PASS 12, not checkable (policy) 12, skipped (superseded) 2
+  by set:
+    done, outside the final set  PASS 2, not checkable (policy) 5
+    final set                    PASS 5912, not checkable (policy) 3253
+    not done (superseded)        skipped (superseded) 366
+  samples of done packages that the run skipped as superseded: 0 []

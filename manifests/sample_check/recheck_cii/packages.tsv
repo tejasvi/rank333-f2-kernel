@@ -1,0 +1,25 @@
+# case	package	production_modules	regenerated_modules	leanchecker_pass	leanchecker_fail	leanchecker_not_checkable	pending	aggregation_modules_not_checkable	exported_level_replay_pass	exported_level_replay_fail	olean_identical	olean_differs	no_production_module	top	regenerated_stmt_hash	production_stmt_hash	top_statement_equal	harness_retries	evidence	olean_identical_with_production_chunk_sources	note
+II	II.KM2P000181	226	175	172	0	3	0	3	3	0	5	170	0	KM2P000181.Top.cov	4083090161	4083090161	yes	10	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P000195	238	237	234	0	3	0	3	3	0	25	212	0	KM2P000195.Top.cov	48902223	48902223	yes	11	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P001217	1505	1464	1461	0	3	0	3	3	0	152	1312	0	KM2P001217.Top.cov	3702383316	3702383316	yes	6	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P001917	132	126	126	0	0	0	0	3	0	2	124	0	KM2P001917.Top.cov	2363464641	2363464641	yes	0	(b)	-	-
+II	II.KM2P002742	484	454	450	0	4	0	4	4	0	1	453	0	KM2P002742.Top.cov	616307086	616307086	yes	0	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P002866	304	261	258	0	3	0	3	3	0	0	261	0	KM2P002866.Top.cov	1615539615	1615539615	yes	0	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P005680	338	234	231	0	3	0	3	3	0	0	234	0	KM2P005680.Top.cov	3207290584	3207290584	yes	9	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P005847	253	236	233	0	3	0	3	3	0	11	225	0	KM2P005847.Top.cov	1530099348	1530099348	yes	0	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P006552	230	204	201	0	3	0	3	3	0	5	199	0	KM2P006552.Top.cov	2552364557	2552364557	yes	9	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P006811	188	183	180	0	3	0	3	3	0	5	178	0	KM2P006811.Top.cov	341782058	341782058	yes	4	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P007638	202	176	173	0	3	0	3	3	0	3	173	0	KM2P007638.Top.cov	3908279112	3908279112	yes	4	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2P009791	90	90	90	0	0	0	0	3	0	90	0	0	KM2P009791.Top.cov	2776501689	2776501689	yes	0	(a)	-	-
+II	II.KM2P010636	282	282	282	0	0	0	0	3	0	282	0	0	KM2P010636.Top.cov	1021043954	1021043954	yes	0	(a)	-	-
+II	II.KM2P010915	18	18	18	0	0	0	0	2	0	18	0	0	KM2P010915.Top.cov	337550281	337550281	yes	0	(a)	-	-
+II	II.KM2X001188	751	743	738	0	5	0	5	5	0	10	733	0	KM2X001188.Top.cov	4018365965	4018365965	yes	0	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2X003814	50	52	52	0	0	0	0	3	0	5	45	2	KM2X003814.Top.cov	917343618	917343618	yes	0	(b)	-	-
+II	II.KM2X004859	102	108	108	0	0	0	0	3	0	24	78	6	KM2X004859.Top.cov	1588809452	1588809452	yes	0	(b)	-	-
+II	II.KM2X006668	706	672	668	0	4	0	4	4	0	9	663	0	KM2X006668.Top.cov	1960755363	1960755363	yes	0	(b), aggregation modules not replayed by leanchecker	-	-
+II	II.KM2X007307	151	141	141	0	0	0	0	3	0	2	139	0	KM2X007307.Top.cov	3008177045	3008177045	yes	0	(b)	-	-
+II	II.KM2X007552	328	315	312	0	3	0	3	3	0	14	301	0	KM2X007552.Top.cov	2777483436	2777483436	yes	0	(b), aggregation modules not replayed by leanchecker	-	-
+I	I.321	149	149	149	0	0	0	0	5	0	2	141	6	KMIA.Top.vI	4154986339	4154986339	yes	0	(b)	-	-
+I13	I13.L028	68	68	68	0	0	0	0	3	0	65	3	0	KMJL028.A2.cov	172081999	172081999	yes	0	(a)	68	3 of 3 chunks differ in the counting run by the deny-list line that the released mkaggf.py adds; rebuilt from the production chunk sources against the regenerated items, 3 of 3 are byte-identical to production and pass leanchecker
+I13	I13.L034	18	18	18	0	0	0	0	2	0	16	2	0	KMJL034.A1.cov	3019355807	3019355807	yes	0	(a)	18	2 of 2 chunks differ in the counting run by the deny-list line that the released mkaggf.py adds; rebuilt from the production chunk sources against the regenerated items, 2 of 2 are byte-identical to production and pass leanchecker
+I13	I13.L048	27	27	27	0	0	0	0	2	0	25	2	0	KMJL048.A1.cov	1610983966	1610983966	yes	0	(a)	27	2 of 2 chunks differ in the counting run by the deny-list line that the released mkaggf.py adds; rebuilt from the production chunk sources against the regenerated items, 2 of 2 are byte-identical to production and pass leanchecker

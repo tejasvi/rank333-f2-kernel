@@ -1,0 +1,6 @@
+# The two module files that differ when E1GK.RootCmd and E1PQ.ChainF are built from the sources here (doc comments edited
+# for release); their .olean, .ilean and .ir equal OLEAN_SHA256, which lists the production files.
+ee11aea2bd778b507b2e9e8c9346b6da13c5500137af690974ff84d29881694f  E1GK/RootCmd.olean.private
+d83bdef0dfaf873c7da4d119700814628e65996afa8c5d1cecccbdda8c3b3830  E1GK/RootCmd.olean.server
+0827caeb963d236f1aa3dac7afbc62047dbb6e408cd2e675dede9972353533f8  E1PQ/ChainF.olean.private
+bffed29ea56c1647d7bad8b0814d70dee10207b36e69c3e43439ee40ba38ff99  E1PQ/ChainF.olean.server

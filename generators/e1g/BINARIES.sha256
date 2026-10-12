@@ -1,0 +1,5 @@
+# The binaries that every e1g tools version (v3, v7.1, v8, v8.2, v8.3, v8.5) shipped and every e1g package emission ran
+# (paths relative to a tools tree).  build.sh rebuilds the first two from cpp/; libhighs.so.1 is the file of the highspy 1.15.1 wheel.
+83e50eb462e343b5a18d27c80c66dbb15732245e949d004aca30f3e1362724f2  bin/lineenum9qe_ld5
+f00fa1ea04a7bf992564fa71878898c00107d0fe73adfad70846f2518f4b94eb  bin/e1pconv
+4964579253b67b4525fbe4985725560732dac3b8f178356e6699f9411e64d93a  lib/libhighs.so.1

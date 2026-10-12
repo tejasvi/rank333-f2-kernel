@@ -1,0 +1,115 @@
+{
+ "totals": {
+  "II": {
+   "packages": 20,
+   "production_modules": 6578,
+   "regenerated_modules": 6171,
+   "pass": 6128,
+   "fail": 0,
+   "not_checkable": 43,
+   "pending": 0,
+   "identical": 663,
+   "differs": 5500,
+   "no_production_module": 8,
+   "top_equal": 20,
+   "ev_a": 3,
+   "ev_b": 4,
+   "ev_b_partial": 13,
+   "exp_pass": 63,
+   "exp_fail": 0,
+   "harness": 53
+  },
+  "all": {
+   "packages": 24,
+   "production_modules": 6840,
+   "regenerated_modules": 6433,
+   "pass": 6390,
+   "fail": 0,
+   "not_checkable": 43,
+   "pending": 0,
+   "identical": 771,
+   "differs": 5648,
+   "no_production_module": 14,
+   "top_equal": 24,
+   "ev_a": 6,
+   "ev_b": 5,
+   "ev_b_partial": 13,
+   "exp_pass": 75,
+   "exp_fail": 0,
+   "harness": 53,
+   "prodsrc_chunks": 7,
+   "prodsrc_identical": 7,
+   "prodsrc_pass": 7
+  },
+  "I": {
+   "packages": 1,
+   "production_modules": 149,
+   "regenerated_modules": 149,
+   "pass": 149,
+   "fail": 0,
+   "not_checkable": 0,
+   "pending": 0,
+   "identical": 2,
+   "differs": 141,
+   "no_production_module": 6,
+   "top_equal": 1,
+   "ev_a": 0,
+   "ev_b": 1,
+   "ev_b_partial": 0,
+   "exp_pass": 5,
+   "exp_fail": 0,
+   "harness": 0
+  },
+  "I13": {
+   "packages": 3,
+   "production_modules": 113,
+   "regenerated_modules": 113,
+   "pass": 113,
+   "fail": 0,
+   "not_checkable": 0,
+   "pending": 0,
+   "identical": 106,
+   "differs": 7,
+   "no_production_module": 0,
+   "top_equal": 3,
+   "ev_a": 3,
+   "ev_b": 0,
+   "ev_b_partial": 0,
+   "exp_pass": 7,
+   "exp_fail": 0,
+   "harness": 0,
+   "prodsrc_chunks": 7,
+   "prodsrc_identical": 7,
+   "prodsrc_pass": 7
+  }
+ },
+ "stops": [],
+ "superseded_rows": 973,
+ "kinds": {
+  "aggregation (chunk)": {
+   "b_total": 24,
+   "b_pass": 24,
+   "large_total": 30,
+   "large_pass": 0,
+   "large_exp_pass": 30
+  },
+  "item": {
+   "b_total": 1046,
+   "b_pass": 1046,
+   "large_total": 5311,
+   "large_pass": 5311,
+   "large_exp_pass": 0
+  },
+  "dead-root item": {
+   "b_total": 1,
+   "b_pass": 1
+  },
+  "top": {
+   "b_total": 8,
+   "b_pass": 8,
+   "large_total": 13,
+   "large_pass": 0,
+   "large_exp_pass": 13
+  }
+ }
+}

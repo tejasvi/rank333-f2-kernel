@@ -1,0 +1,21 @@
+# External walk at the private level (KModExt over the union of every package's external obligations), snapshot snap-20261011T2103Z-f674b4e775a4
+obligation entries: 5010509; walked in passed batches: 5008518; excluded: 1991 (C1_excluded_retired.tsv: modules of retired packages only, no current producer, not on the final LEAN_PATH)
+batches: 890 result files, 890 ok, 0 failed; batches recorded in the walk table: 880
+EXT STD union: ['Classical.choice', 'Quot.sound', 'propext']
+
+tier                 obligations     walked
+EXT                     1795991    1795991
+I                          1467       1467
+I13                        1366       1366
+agg                      193538     193538
+c436/c422/held          1855230    1853239
+caseII                     3967       3967
+caseII-join               21269      21269
+classagg                  25847      25847
+classes                  112294     112294
+ext-top                  993137     993137
+point                      6403       6403
+
+# R22K.Final's own external step (final_ext.py)
+final_ext: 978815 obligations already walked by the union walk in passed batches (reused), 465 to walk now
+top: 465 external obligations (331 env, 134 store in 48 packages, 0 unknown); 3 batches, 0 failed; manifest-resolved 113, tycheck 21, walked 331; std ['Classical.choice', 'Quot.sound', 'propext'] -> PASS

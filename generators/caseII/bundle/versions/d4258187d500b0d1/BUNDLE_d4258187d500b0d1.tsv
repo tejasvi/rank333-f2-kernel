@@ -1,0 +1,9 @@
+# bundle d4258187d500b0d1: its files that differ from bundle 77b5632621a1563c (every other file of the version is the same as there: BUNDLE_FILES.tsv)
+# to emit with this version: copy ../../ (bundle 77b5632621a1563c) and put this directory's files over it at the same paths
+# path	sha256 in the bundle	sha256 of the file here	difference
+VERSION	552ce62484f33f4a792299dbd51184422d3b80ef47a29b4e5c02234ada482f6f	552ce62484f33f4a792299dbd51184422d3b80ef47a29b4e5c02234ada482f6f	identical
+emitcc.sh	be6102e32e84e5c6b5d39a032290e535c58c556ae498c0d5d797cb67010b4672	de68067af41e8fa1d1f2ae0d27ec92da0e1b1387ae8881087b3b0d60334730a7	paths and comments
+mkpkgw.py	ae1cbe31c4349025eaa39c23abe99bcd05494329efb2bab884fd2bb7ee60166b	625ffdac7415b13c02f52e36204d4dd80aa75a8c347e0d0fc428dca16d3d3f31	paths and comments
+r22/lean/kinds/py/joinemit.py	48e16b292e15c857184873d927c6ca3cace2629ceecaff7d047c7fd83f190960	4f3796439082a9a2a6db83a1654dac3bd8de5021c71616d8093ef7d01b527502	paths and comments
+r22/lean/kinds/py/mkaggf.py	298a682196fe773c5678b83d44c24edfd313cf75af4d4b466a9f9e77bb8f1e9d	692a00fd1eb43954e211e8361b2be21db306b534d4e7fcf39a960283266a5299	paths and comments
+r22/lean/kinds/py/mkimod.py	22f2233c5d1046a0c9b8e6331f89014dce9f17abac917b5c29d940e2752418e7	22f2233c5d1046a0c9b8e6331f89014dce9f17abac917b5c29d940e2752418e7	identical

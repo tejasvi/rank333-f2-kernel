@@ -1,0 +1,6 @@
+# bundle 34b2a0f77dbb18b7: its files that differ from bundle 77b5632621a1563c (every other file of the version is the same as there: BUNDLE_FILES.tsv)
+# to emit with this version: copy ../../ (bundle 77b5632621a1563c) and put this directory's files over it at the same paths
+# path	sha256 in the bundle	sha256 of the file here	difference
+VERSION	dca91b0dc835069c38cc9dc1fb540b7e0d33aba0ca39d44dbce6fd4d3eaafee9	dca91b0dc835069c38cc9dc1fb540b7e0d33aba0ca39d44dbce6fd4d3eaafee9	identical
+emitcc.sh	844eb01c3bc5b1649e2308b818e818cdd83adfde3f8dbb73e11df0cc76bbc900	49b41098e57a8ebd873b4b066f208c670bd9c6a258384a7587ab6ff9c5558f4f	paths and comments
+mkpkgw.py	d3283b2ea8c4169a9e44542215436be1399b49676cf26c987222d74c75a34f93	c9bf017d3440c490c660a2b21f11fe931c5489398c86226d851a10b580fba1e7	paths and comments

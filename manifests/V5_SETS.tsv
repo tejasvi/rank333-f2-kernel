@@ -1,0 +1,16 @@
+# V5 A0 sets, snapshot snap-20261011T2103Z-f674b4e775a4
+# set	id	note
+outside	w1_29428.re.sb1_0	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_1	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_2	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_3	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_4	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_5	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_6	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_7	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_8	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+outside	w1_29428.re.sb1_9	replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it
+rebuilt	II.KM2X003078	its earlier build used caseII library closure v3; the done record is the rebuild against v4 (the final environment)
+rebuilt	II.KM2X003089	its earlier build used caseII library closure v3; the done record is the rebuild against v4 (the final environment)
+rebuilt	II.KM2X006581	its earlier build used caseII library closure v3; the done record is the rebuild against v4 (the final environment)
+rebuilt	ext_436_303fa8312a1f	its earlier build has no per-package audit or provenance record; the done record is the audited rebuild

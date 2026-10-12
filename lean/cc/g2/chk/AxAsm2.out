@@ -1,0 +1,70 @@
+'G2A.gen_getD' depends on axioms: [propext, Quot.sound]
+'G2A.genW_getD' depends on axioms: [propext, Quot.sound]
+'G2A.eqL_spec' depends on axioms: [propext]
+'G2A.eqLL_spec' depends on axioms: [propext]
+'G2A.getD_of_eqL' depends on axioms: [propext, Quot.sound]
+'G2A.getDW_of_eqLL' depends on axioms: [propext, Quot.sound]
+'G2A.getD_take_of_lt' depends on axioms: [propext]
+'G2A.getD_of_eqL_take' depends on axioms: [propext, Quot.sound]
+'G2A.getDW_of_eqLL_take' depends on axioms: [propext, Quot.sound]
+'G2A.getD_drop'' depends on axioms: [propext]
+'G2A.getD_of_chunk' depends on axioms: [propext, Quot.sound]
+'G2A.getDW_of_chunk' depends on axioms: [propext, Quot.sound]
+'G2A.getD_join' depends on axioms: [propext, Quot.sound]
+'G2A.getDW_join' depends on axioms: [propext, Quot.sound]
+'G2A.blkChkF_eq' depends on axioms: [propext, Quot.sound]
+'G2A.blkChkF_zero' depends on axioms: [propext]
+'G2A.blkChkF_succ_of' depends on axioms: [propext]
+'G2A.blkChk_of_F' depends on axioms: [propext, Quot.sound]
+'G2A.glue1F_eq' depends on axioms: [propext]
+'G2A.glueRowF_eq' depends on axioms: [propext]
+'G2A.glueChkRF_eq' depends on axioms: [propext, Quot.sound]
+'G2A.glueChkR_of_F' depends on axioms: [propext, Quot.sound]
+KAX OBL G2.Asm2 G2A.gen_getD
+KAXSUM G2A.gen_getD visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.genW_getD
+KAXSUM G2A.genW_getD visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.eqL_spec
+KAXSUM G2A.eqL_spec visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.eqLL_spec
+KAXSUM G2A.eqLL_spec visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getD_of_eqL
+KAXSUM G2A.getD_of_eqL visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getDW_of_eqLL
+KAXSUM G2A.getDW_of_eqLL visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getD_take_of_lt
+KAXSUM G2A.getD_take_of_lt visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getD_of_eqL_take
+KAXSUM G2A.getD_of_eqL_take visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getDW_of_eqLL_take
+KAXSUM G2A.getDW_of_eqLL_take visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getD_drop'
+KAXSUM G2A.getD_drop' visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getD_of_chunk
+KAXSUM G2A.getD_of_chunk visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getDW_of_chunk
+KAXSUM G2A.getDW_of_chunk visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getD_join
+KAXSUM G2A.getD_join visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.getDW_join
+KAXSUM G2A.getDW_join visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.blkChkF_eq
+KAXSUM G2A.blkChkF_eq visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.blkChkF_zero
+KAXSUM G2A.blkChkF_zero visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.blkChkF_succ_of
+KAXSUM G2A.blkChkF_succ_of visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.blkChk_of_F
+KAXSUM G2A.blkChk_of_F visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.glue1F_eq
+KAXSUM G2A.glue1F_eq visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.glueRowF_eq
+KAXSUM G2A.glueRowF_eq visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.glueChkRF_eq
+KAXSUM G2A.glueChkRF_eq visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+KAX OBL G2.Asm2 G2A.glueChkR_of_F
+KAXSUM G2A.glueChkR_of_F visited=1 std=0 obl=1 bad=0 local_axioms=0 ms=0
+
+real	0m2.416s
+user	0m1.713s
+sys	0m0.705s

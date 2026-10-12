@@ -1,0 +1,3 @@
+# Sources here that differ from the production files, in comment wording only. Built from either version, the binary is the same.
+# file	production sha256	sha256 here
+src/xq/r3q/r3qglue.cc	09cd09b62af03949bb67a4ec08749b5666e78d257ad1e7e476a8a5f284d6f4c1	950dc79f750fda49b3fb9e6d9bf4f99ef087839996676674bebb31df84b6dbc9

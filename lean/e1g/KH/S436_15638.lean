@@ -1,0 +1,4 @@
+module
+public import RT.Load
+/-! # The sub-job table of heavy job 15638 of c436 (13348 depth-10 sub-jobs), public data: sub-job k's mode-0 prefix header -/
+#rttablew KH.S436_15638 "data/KH_S436_15638.bin" 64 128

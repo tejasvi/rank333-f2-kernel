@@ -1,0 +1,8 @@
+# the top store, snapshot snap-20261011T2103Z-f674b4e775a4: the public parts of every done package's exported modules, installed for the final build (not shipped; .kman/.mhash records hold absolute paths)
+files 3474400, bytes 18134537991 (sum of file sizes), disk usage 27920805888 bytes
+extension	files	bytes
+.kman	694880	7000999094
+.olean	694880	5393371672
+.mhash	694880	3640117189
+.ilean	694880	1404923364
+.olean.server	694880	695126672

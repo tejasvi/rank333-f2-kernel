@@ -1,0 +1,24 @@
+G2STMT E1NR1.Crown303.crown (first binder dropped) vs G2.Crown303.crown: equal=true
+G2CONST Nat some (Init.Prelude)
+G2CONST RT.Fact some (RT.Sound)
+G2CONST RT.kM some (RT.Defs)
+G2CONST RT.Cls_e303.CL some (RT.Cls_e303)
+G2CONST RT.cLB some (RT.Defs)
+G2CONST HC.E1Concl some (HC.Pad)
+G2CONST E1.IP_e303.Em some (E1.IP_e303)
+G2CONST OfNat.ofNat some (Init.Prelude)
+G2CONST instOfNatNat some (Init.Prelude)
+G2STMT E1NR1.Crown321.crown (first binder dropped) vs G2.Crown321.crown: equal=true
+G2CONST Nat some (Init.Prelude)
+G2CONST RT.Fact some (RT.Sound)
+G2CONST RT.kM some (RT.Defs)
+G2CONST RT.Cls_e321.CL some (RT.Cls_e321)
+G2CONST RT.cLB some (RT.Defs)
+G2CONST HC.E1Concl some (HC.Pad)
+G2CONST E1.IP_e321.Em some (E1.IP_e321)
+G2CONST OfNat.ofNat some (Init.Prelude)
+G2CONST instOfNatNat some (Init.Prelude)
+
+real	0m2.091s
+user	0m1.549s
+sys	0m0.539s

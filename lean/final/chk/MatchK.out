@@ -1,0 +1,64 @@
+== h420 rc=0 port top=yes application=OK
+   FTCHK kc420 ← KC.h420.classLB (e420 := KC.h420.EXT) EXPR-EQUAL
+   FTCHK x420 ← NDX.h420.x420 (e420 := KC.h420.EXT) DEFEQ
+== h450 rc=0 port top=yes application=OK
+   FTCHK kc450 ← KC.h450.classLB (e450 := KC.h450.EXT) EXPR-EQUAL
+   FTCHK x450 ← NDX.h450.x450 (e450 := KC.h450.EXT) DEFEQ
+== h451 rc=0 port top=yes application=OK
+   FTCHK kc451 ← KC.h451.classLB (e451 := KC.h451.EXT) EXPR-EQUAL
+   FTCHK x451 ← NDX.h451.x451 (e451 := KC.h451.EXT) DEFEQ
+== h454 rc=0 HCapK top=yes application=OK
+   FTCHK kc454 ← KC.h454.classLB (e454 := KC.h454.EXT) EXPR-EQUAL
+   FTCHK x454 ← NDX.h454.x454 (e454 := KC.h454.EXT) DEFEQ
+== h455 rc=0 port top=yes application=OK
+   FTCHK kc455 ← KC.h455.classLB (e455 := KC.h455.EXT) EXPR-EQUAL
+   FTCHK x455 ← NDX.h455.x455 (e455 := KC.h455.EXT) DEFEQ
+== h456 rc=0 HCapK top=yes application=OK
+   FTCHK kc456 ← KC.h456.classLB (e456 := KC.h456.EXT) EXPR-EQUAL
+   FTCHK x456 ← NDX.h456.x456 (e456 := KC.h456.EXT) DEFEQ
+== h458 rc=0 port top=yes application=OK
+   FTCHK kc458 ← KC.h458.classLB (e458 := KC.h458.EXT) EXPR-EQUAL
+   FTCHK x458 ← NDX.h458.x458 (e458 := KC.h458.EXT) DEFEQ
+== h460 rc=0 port top=yes application=OK
+   FTCHK kc460 ← KC.h460.classLB (e460 := KC.h460.EXT) EXPR-EQUAL
+   FTCHK x460 ← NDX.h460.x460 (e460 := KC.h460.EXT) DEFEQ
+== h463 rc=0 port top=yes application=OK
+   FTCHK kc463 ← KC.h463.classLB (e463 := KC.h463.EXT) EXPR-EQUAL
+   FTCHK x463 ← NDX.h463.x463 (e463 := KC.h463.EXT) DEFEQ
+== h464 rc=0 port top=yes application=OK
+   FTCHK kc464 ← KC.h464.classLB (e464 := KC.h464.EXT) EXPR-EQUAL
+   FTCHK x464 ← NDX.h464.x464 (e464 := KC.h464.EXT) DEFEQ
+== h465 rc=0 HCapK top=yes application=OK
+   FTCHK kc465 ← KC.h465.classLB (e465 := KC.h465.EXT) EXPR-EQUAL
+   FTCHK x465 ← NDX.h465.x465 (e465 := KC.h465.EXT) DEFEQ
+== h469 rc=0 HCapK top=yes application=OK
+   FTCHK kc469 ← KC.h469.classLB (e469 := KC.h469.EXT) EXPR-EQUAL
+   FTCHK x469 ← NDX.h469.x469 (e469 := KC.h469.EXT) DEFEQ
+== h470 rc=0 port top=yes application=OK
+   FTCHK kc470 ← KC.h470.classLB (e470 := KC.h470.EXT) EXPR-EQUAL
+   FTCHK x470 ← NDX.h470.x470 (e470 := KC.h470.EXT) DEFEQ
+== h471 rc=0 HCapK top=yes application=OK
+   FTCHK kc471 ← KC.h471.classLB (e471 := KC.h471.EXT) EXPR-EQUAL
+   FTCHK x471 ← NDX.h471.x471 (e471 := KC.h471.EXT) DEFEQ
+== h472 rc=0 HCapK top=yes application=OK
+   FTCHK kc472 ← KC.h472.classLB (e472 := KC.h472.EXT) EXPR-EQUAL
+   FTCHK x472 ← NDX.h472.x472 (e472 := KC.h472.EXT) DEFEQ
+== h473 rc=0 HCapK top=yes application=OK
+   FTCHK kc473 ← KC.h473.classLB (e473 := KC.h473.EXT) EXPR-EQUAL
+   FTCHK x473 ← NDX.h473.x473 (e473 := KC.h473.EXT) DEFEQ
+== h475 rc=0 port top=yes application=OK
+   FTCHK kc475 ← KC.h475.classLB (e475 := KC.h475.EXT) EXPR-EQUAL
+   FTCHK x475 ← NDX.h475.x475 (e475 := KC.h475.EXT) DEFEQ
+== h476 rc=0 HCapK top=yes application=OK
+   FTCHK kc476 ← KC.h476.classLB (e476 := KC.h476.EXT) EXPR-EQUAL
+   FTCHK x476 ← NDX.h476.x476 (e476 := KC.h476.EXT) DEFEQ
+== h485 rc=0 HCapK top=yes application=OK
+   FTCHK kc485 ← KC.h485.classLB (e485 := KC.h485.EXT) EXPR-EQUAL
+   FTCHK x485 ← NDX.h485.x485 (e485 := KC.h485.EXT) DEFEQ
+== h487 rc=0 HCapK top=yes application=OK
+   FTCHK kc487 ← KC.h487.classLB (e487 := KC.h487.EXT) EXPR-EQUAL
+   FTCHK x487 ← NDX.h487.x487 (e487 := KC.h487.EXT) DEFEQ
+== h490 rc=0 HCapK top=yes application=OK
+   FTCHK kc490 ← KC.h490.classLB (e490 := KC.h490.EXT) EXPR-EQUAL
+   FTCHK x490 ← NDX.h490.x490 (e490 := KC.h490.EXT) DEFEQ
+classes without a root in the store yet: -

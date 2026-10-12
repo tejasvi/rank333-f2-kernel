@@ -1,0 +1,393 @@
+FTCHK kc460 ← KC.h460.classLB (e460 := KC.h460.EXT) EXPR-EQUAL
+FTCHK x460 ← NDX.h460.x460 (e460 := KC.h460.EXT) DEFEQ
+fun cr303 cr321 e420 kc420 x420 e450 kc450 x450 e451 kc451 x451 e454 kc454 x454 e455 kc455 x455 e456 kc456 x456 e458
+    kc458 x458 =>
+  R22K.FinalAll.rank_ge_23_of cr303 cr321 e420 kc420 x420 e450 kc450 x450 e451 kc451 x451 e454 kc454 x454 e455 kc455
+    x455 e456 kc456 x456 e458 kc458 x458 KC.h460.EXT KC.h460.classLB
+    NDX.h460.x460 : ((∀ (c : ℕ), RT.Fact (RT.kM RT.Cls_e303.CL c) (RT.cLB RT.Cls_e303.CL c)) →
+    HC.E1Concl E1.IP_e303.Em 18) →
+  ((∀ (c : ℕ), RT.Fact (RT.kM RT.Cls_e321.CL c) (RT.cLB RT.Cls_e321.CL c)) → HC.E1Concl E1.IP_e321.Em 18) →
+    ∀ (e420 : List ℕ),
+      (HC.RRAll →
+          (∀ p ∈ HC.T_h420.RL, HC.ClassLB p.1 p.2) →
+            (∀ pl ∈ e420,
+                S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h420.R E1G.IP_h420.VT E1G.IP_h420.DOM pl 0))
+                  (S5.leafN (E1G.leafRec E1G.IP_h420.R E1G.IP_h420.VT E1G.IP_h420.DOM pl 0))
+                  (S6.leafDom6 (E1G.leafRec E1G.IP_h420.R E1G.IP_h420.VT E1G.IP_h420.DOM pl 0))) →
+              HC.ClassLB 420 20) →
+        (∀ pl ∈ e420,
+            S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h420.R E1G.IP_h420.VT E1G.IP_h420.DOM pl 0))
+              (S5.leafN (E1G.leafRec E1G.IP_h420.R E1G.IP_h420.VT E1G.IP_h420.DOM pl 0))
+              (S6.leafDom6 (E1G.leafRec E1G.IP_h420.R E1G.IP_h420.VT E1G.IP_h420.DOM pl 0))) →
+          ∀ (e450 : List ℕ),
+            (HC.RRAll →
+                (∀ p ∈ HC.T_h450.RL, HC.ClassLB p.1 p.2) →
+                  (∀ pl ∈ e450,
+                      S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h450.R E1G.IP_h450.VT E1G.IP_h450.DOM pl 0))
+                        (S5.leafN (E1G.leafRec E1G.IP_h450.R E1G.IP_h450.VT E1G.IP_h450.DOM pl 0))
+                        (S6.leafDom6 (E1G.leafRec E1G.IP_h450.R E1G.IP_h450.VT E1G.IP_h450.DOM pl 0))) →
+                    HC.ClassLB 450 20) →
+              (∀ pl ∈ e450,
+                  S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h450.R E1G.IP_h450.VT E1G.IP_h450.DOM pl 0))
+                    (S5.leafN (E1G.leafRec E1G.IP_h450.R E1G.IP_h450.VT E1G.IP_h450.DOM pl 0))
+                    (S6.leafDom6 (E1G.leafRec E1G.IP_h450.R E1G.IP_h450.VT E1G.IP_h450.DOM pl 0))) →
+                ∀ (e451 : List ℕ),
+                  (HC.RRAll →
+                      (∀ p ∈ HC.T_h451.RL, HC.ClassLB p.1 p.2) →
+                        (∀ pl ∈ e451,
+                            S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h451.R E1G.IP_h451.VT E1G.IP_h451.DOM pl 0))
+                              (S5.leafN (E1G.leafRec E1G.IP_h451.R E1G.IP_h451.VT E1G.IP_h451.DOM pl 0))
+                              (S6.leafDom6 (E1G.leafRec E1G.IP_h451.R E1G.IP_h451.VT E1G.IP_h451.DOM pl 0))) →
+                          HC.ClassLB 451 20) →
+                    (∀ pl ∈ e451,
+                        S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h451.R E1G.IP_h451.VT E1G.IP_h451.DOM pl 0))
+                          (S5.leafN (E1G.leafRec E1G.IP_h451.R E1G.IP_h451.VT E1G.IP_h451.DOM pl 0))
+                          (S6.leafDom6 (E1G.leafRec E1G.IP_h451.R E1G.IP_h451.VT E1G.IP_h451.DOM pl 0))) →
+                      ∀ (e454 : List ℕ),
+                        (HC.RRAll →
+                            (∀ p ∈ HC.T_h454.RL, HC.ClassLB p.1 p.2) →
+                              (∀ pl ∈ e454,
+                                  S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h454.R E1G.IP_h454.VT E1G.IP_h454.DOM pl 0))
+                                    (S5.leafN (E1G.leafRec E1G.IP_h454.R E1G.IP_h454.VT E1G.IP_h454.DOM pl 0))
+                                    (S6.leafDom6 (E1G.leafRec E1G.IP_h454.R E1G.IP_h454.VT E1G.IP_h454.DOM pl 0))) →
+                                HC.ClassLB 454 20) →
+                          (∀ pl ∈ e454,
+                              S5.NoDecomp (S5.leafT (E1G.leafRec E1G.IP_h454.R E1G.IP_h454.VT E1G.IP_h454.DOM pl 0))
+                                (S5.leafN (E1G.leafRec E1G.IP_h454.R E1G.IP_h454.VT E1G.IP_h454.DOM pl 0))
+                                (S6.leafDom6 (E1G.leafRec E1G.IP_h454.R E1G.IP_h454.VT E1G.IP_h454.DOM pl 0))) →
+                            ∀ (e455 : List ℕ),
+                              (HC.RRAll →
+                                  (∀ p ∈ HC.T_h455.RL, HC.ClassLB p.1 p.2) →
+                                    (∀ pl ∈ e455,
+                                        S5.NoDecomp
+                                          (S5.leafT (E1G.leafRec E1G.IP_h455.R E1G.IP_h455.VT E1G.IP_h455.DOM pl 0))
+                                          (S5.leafN (E1G.leafRec E1G.IP_h455.R E1G.IP_h455.VT E1G.IP_h455.DOM pl 0))
+                                          (S6.leafDom6
+                                            (E1G.leafRec E1G.IP_h455.R E1G.IP_h455.VT E1G.IP_h455.DOM pl 0))) →
+                                      HC.ClassLB 455 20) →
+                                (∀ pl ∈ e455,
+                                    S5.NoDecomp
+                                      (S5.leafT (E1G.leafRec E1G.IP_h455.R E1G.IP_h455.VT E1G.IP_h455.DOM pl 0))
+                                      (S5.leafN (E1G.leafRec E1G.IP_h455.R E1G.IP_h455.VT E1G.IP_h455.DOM pl 0))
+                                      (S6.leafDom6 (E1G.leafRec E1G.IP_h455.R E1G.IP_h455.VT E1G.IP_h455.DOM pl 0))) →
+                                  ∀ (e456 : List ℕ),
+                                    (HC.RRAll →
+                                        (∀ p ∈ HC.T_h456.RL, HC.ClassLB p.1 p.2) →
+                                          (∀ pl ∈ e456,
+                                              S5.NoDecomp
+                                                (S5.leafT
+                                                  (E1G.leafRec E1G.IP_h456.R E1G.IP_h456.VT E1G.IP_h456.DOM pl 0))
+                                                (S5.leafN
+                                                  (E1G.leafRec E1G.IP_h456.R E1G.IP_h456.VT E1G.IP_h456.DOM pl 0))
+                                                (S6.leafDom6
+                                                  (E1G.leafRec E1G.IP_h456.R E1G.IP_h456.VT E1G.IP_h456.DOM pl 0))) →
+                                            HC.ClassLB 456 20) →
+                                      (∀ pl ∈ e456,
+                                          S5.NoDecomp
+                                            (S5.leafT (E1G.leafRec E1G.IP_h456.R E1G.IP_h456.VT E1G.IP_h456.DOM pl 0))
+                                            (S5.leafN (E1G.leafRec E1G.IP_h456.R E1G.IP_h456.VT E1G.IP_h456.DOM pl 0))
+                                            (S6.leafDom6
+                                              (E1G.leafRec E1G.IP_h456.R E1G.IP_h456.VT E1G.IP_h456.DOM pl 0))) →
+                                        ∀ (e458 : List ℕ),
+                                          (HC.RRAll →
+                                              (∀ p ∈ HC.T_h458.RL, HC.ClassLB p.1 p.2) →
+                                                (∀ pl ∈ e458,
+                                                    S5.NoDecomp
+                                                      (S5.leafT
+                                                        (E1G.leafRec E1G.IP_h458.R E1G.IP_h458.VT E1G.IP_h458.DOM pl 0))
+                                                      (S5.leafN
+                                                        (E1G.leafRec E1G.IP_h458.R E1G.IP_h458.VT E1G.IP_h458.DOM pl 0))
+                                                      (S6.leafDom6
+                                                        (E1G.leafRec E1G.IP_h458.R E1G.IP_h458.VT E1G.IP_h458.DOM pl
+                                                          0))) →
+                                                  HC.ClassLB 458 20) →
+                                            (∀ pl ∈ e458,
+                                                S5.NoDecomp
+                                                  (S5.leafT
+                                                    (E1G.leafRec E1G.IP_h458.R E1G.IP_h458.VT E1G.IP_h458.DOM pl 0))
+                                                  (S5.leafN
+                                                    (E1G.leafRec E1G.IP_h458.R E1G.IP_h458.VT E1G.IP_h458.DOM pl 0))
+                                                  (S6.leafDom6
+                                                    (E1G.leafRec E1G.IP_h458.R E1G.IP_h458.VT E1G.IP_h458.DOM pl 0))) →
+                                              ∀ (e463 : List ℕ),
+                                                (HC.RRAll →
+                                                    (∀ p ∈ HC.T_h463.RL, HC.ClassLB p.1 p.2) →
+                                                      (∀ pl ∈ e463,
+                                                          S5.NoDecomp
+                                                            (S5.leafT
+                                                              (E1G.leafRec E1G.IP_h463.R E1G.IP_h463.VT E1G.IP_h463.DOM
+                                                                pl 0))
+                                                            (S5.leafN
+                                                              (E1G.leafRec E1G.IP_h463.R E1G.IP_h463.VT E1G.IP_h463.DOM
+                                                                pl 0))
+                                                            (S6.leafDom6
+                                                              (E1G.leafRec E1G.IP_h463.R E1G.IP_h463.VT E1G.IP_h463.DOM
+                                                                pl 0))) →
+                                                        HC.ClassLB 463 20) →
+                                                  (∀ pl ∈ e463,
+                                                      S5.NoDecomp
+                                                        (S5.leafT
+                                                          (E1G.leafRec E1G.IP_h463.R E1G.IP_h463.VT E1G.IP_h463.DOM pl
+                                                            0))
+                                                        (S5.leafN
+                                                          (E1G.leafRec E1G.IP_h463.R E1G.IP_h463.VT E1G.IP_h463.DOM pl
+                                                            0))
+                                                        (S6.leafDom6
+                                                          (E1G.leafRec E1G.IP_h463.R E1G.IP_h463.VT E1G.IP_h463.DOM pl
+                                                            0))) →
+                                                    ∀ (e464 : List ℕ),
+                                                      (HC.RRAll →
+                                                          (∀ p ∈ HC.T_h464.RL, HC.ClassLB p.1 p.2) →
+                                                            (∀ pl ∈ e464,
+                                                                S5.NoDecomp
+                                                                  (S5.leafT
+                                                                    (E1G.leafRec E1G.IP_h464.R E1G.IP_h464.VT
+                                                                      E1G.IP_h464.DOM pl 0))
+                                                                  (S5.leafN
+                                                                    (E1G.leafRec E1G.IP_h464.R E1G.IP_h464.VT
+                                                                      E1G.IP_h464.DOM pl 0))
+                                                                  (S6.leafDom6
+                                                                    (E1G.leafRec E1G.IP_h464.R E1G.IP_h464.VT
+                                                                      E1G.IP_h464.DOM pl 0))) →
+                                                              HC.ClassLB 464 20) →
+                                                        (∀ pl ∈ e464,
+                                                            S5.NoDecomp
+                                                              (S5.leafT
+                                                                (E1G.leafRec E1G.IP_h464.R E1G.IP_h464.VT
+                                                                  E1G.IP_h464.DOM pl 0))
+                                                              (S5.leafN
+                                                                (E1G.leafRec E1G.IP_h464.R E1G.IP_h464.VT
+                                                                  E1G.IP_h464.DOM pl 0))
+                                                              (S6.leafDom6
+                                                                (E1G.leafRec E1G.IP_h464.R E1G.IP_h464.VT
+                                                                  E1G.IP_h464.DOM pl 0))) →
+                                                          ∀ (e465 : List ℕ),
+                                                            (HC.RRAll →
+                                                                (∀ p ∈ HC.T_h465.RL, HC.ClassLB p.1 p.2) →
+                                                                  (∀ pl ∈ e465,
+                                                                      S5.NoDecomp
+                                                                        (S5.leafT
+                                                                          (E1G.leafRec E1G.IP_h465.R E1G.IP_h465.VT
+                                                                            E1G.IP_h465.DOM pl 0))
+                                                                        (S5.leafN
+                                                                          (E1G.leafRec E1G.IP_h465.R E1G.IP_h465.VT
+                                                                            E1G.IP_h465.DOM pl 0))
+                                                                        (S6.leafDom6
+                                                                          (E1G.leafRec E1G.IP_h465.R E1G.IP_h465.VT
+                                                                            E1G.IP_h465.DOM pl 0))) →
+                                                                    HC.ClassLB 465 20) →
+                                                              (∀ pl ∈ e465,
+                                                                  S5.NoDecomp
+                                                                    (S5.leafT
+                                                                      (E1G.leafRec E1G.IP_h465.R E1G.IP_h465.VT
+                                                                        E1G.IP_h465.DOM pl 0))
+                                                                    (S5.leafN
+                                                                      (E1G.leafRec E1G.IP_h465.R E1G.IP_h465.VT
+                                                                        E1G.IP_h465.DOM pl 0))
+                                                                    (S6.leafDom6
+                                                                      (E1G.leafRec E1G.IP_h465.R E1G.IP_h465.VT
+                                                                        E1G.IP_h465.DOM pl 0))) →
+                                                                ∀ (e469 : List ℕ),
+                                                                  (HC.RRAll →
+                                                                      (∀ p ∈ HC.T_h469.RL, HC.ClassLB p.1 p.2) →
+                                                                        (∀ pl ∈ e469,
+                                                                            S5.NoDecomp
+                                                                              (S5.leafT
+                                                                                (E1G.leafRec E1G.IP_h469.R
+                                                                                  E1G.IP_h469.VT E1G.IP_h469.DOM pl 0))
+                                                                              (S5.leafN
+                                                                                (E1G.leafRec E1G.IP_h469.R
+                                                                                  E1G.IP_h469.VT E1G.IP_h469.DOM pl 0))
+                                                                              (S6.leafDom6
+                                                                                (E1G.leafRec E1G.IP_h469.R
+                                                                                  E1G.IP_h469.VT E1G.IP_h469.DOM pl
+                                                                                  0))) →
+                                                                          HC.ClassLB 469 20) →
+                                                                    (∀ pl ∈ e469,
+                                                                        S5.NoDecomp
+                                                                          (S5.leafT
+                                                                            (E1G.leafRec E1G.IP_h469.R E1G.IP_h469.VT
+                                                                              E1G.IP_h469.DOM pl 0))
+                                                                          (S5.leafN
+                                                                            (E1G.leafRec E1G.IP_h469.R E1G.IP_h469.VT
+                                                                              E1G.IP_h469.DOM pl 0))
+                                                                          (S6.leafDom6
+                                                                            (E1G.leafRec E1G.IP_h469.R E1G.IP_h469.VT
+                                                                              E1G.IP_h469.DOM pl 0))) →
+                                                                      ∀ (e470 : List ℕ),
+                                                                        (HC.RRAll →
+                                                                            (∀ p ∈ HC.T_h470.RL, HC.ClassLB p.1 p.2) →
+                                                                              (∀ pl ∈ e470,
+                                                                                  S5.NoDecomp
+                                                                                    (S5.leafT
+                                                                                      (E1G.leafRec E1G.IP_h470.R
+                                                                                        E1G.IP_h470.VT E1G.IP_h470.DOM
+                                                                                        pl 0))
+                                                                                    (S5.leafN
+                                                                                      (E1G.leafRec E1G.IP_h470.R
+                                                                                        E1G.IP_h470.VT E1G.IP_h470.DOM
+                                                                                        pl 0))
+                                                                                    (S6.leafDom6
+                                                                                      (E1G.leafRec E1G.IP_h470.R
+                                                                                        E1G.IP_h470.VT E1G.IP_h470.DOM
+                                                                                        pl 0))) →
+                                                                                HC.ClassLB 470 20) →
+                                                                          (∀ pl ∈ e470,
+                                                                              S5.NoDecomp
+                                                                                (S5.leafT
+                                                                                  (E1G.leafRec E1G.IP_h470.R
+                                                                                    E1G.IP_h470.VT E1G.IP_h470.DOM pl
+                                                                                    0))
+                                                                                (S5.leafN
+                                                                                  (E1G.leafRec E1G.IP_h470.R
+                                                                                    E1G.IP_h470.VT E1G.IP_h470.DOM pl
+                                                                                    0))
+                                                                                (S6.leafDom6
+                                                                                  (E1G.leafRec E1G.IP_h470.R
+                                                                                    E1G.IP_h470.VT E1G.IP_h470.DOM pl
+                                                                                    0))) →
+                                                                            ∀ (e471 : List ℕ),
+                                                                              (HC.RRAll →
+                                                                                  (∀ p ∈ HC.T_h471.RL,
+                                                                                      HC.ClassLB p.1 p.2) →
+                                                                                    (∀ pl ∈ e471,
+                                                                                        S5.NoDecomp
+                                                                                          (S5.leafT
+                                                                                            (E1G.leafRec E1G.IP_h471.R
+                                                                                              E1G.IP_h471.VT
+                                                                                              E1G.IP_h471.DOM pl 0))
+                                                                                          (S5.leafN
+                                                                                            (E1G.leafRec E1G.IP_h471.R
+                                                                                              E1G.IP_h471.VT
+                                                                                              E1G.IP_h471.DOM pl 0))
+                                                                                          (S6.leafDom6
+                                                                                            (E1G.leafRec E1G.IP_h471.R
+                                                                                              E1G.IP_h471.VT
+                                                                                              E1G.IP_h471.DOM pl 0))) →
+                                                                                      HC.ClassLB 471 20) →
+                                                                                (∀ pl ∈ e471,
+                                                                                    S5.NoDecomp
+                                                                                      (S5.leafT
+                                                                                        (E1G.leafRec E1G.IP_h471.R
+                                                                                          E1G.IP_h471.VT E1G.IP_h471.DOM
+                                                                                          pl 0))
+                                                                                      (S5.leafN
+                                                                                        (E1G.leafRec E1G.IP_h471.R
+                                                                                          E1G.IP_h471.VT E1G.IP_h471.DOM
+                                                                                          pl 0))
+                                                                                      (S6.leafDom6
+                                                                                        (E1G.leafRec E1G.IP_h471.R
+                                                                                          E1G.IP_h471.VT E1G.IP_h471.DOM
+                                                                                          pl 0))) →
+                                                                                  ∀ (e472 : List ℕ),
+                                                                                    (HC.RRAll →
+                                                                                        (∀ p ∈ HC.T_h472.RL,
+                                                                                            HC.ClassLB p.1 p.2) →
+                                                                                          (∀ pl ∈ e472,
+                                                                                              S5.NoDecomp
+                                                                                                (S5.leafT
+                                                                                                  (E1G.leafRec
+                                                                                                    E1G.IP_h472.R
+                                                                                                    E1G.IP_h472.VT
+                                                                                                    E1G.IP_h472.DOM pl
+                                                                                                    0))
+                                                                                                (S5.leafN
+                                                                                                  (E1G.leafRec
+                                                                                                    E1G.IP_h472.R
+                                                                                                    E1G.IP_h472.VT
+                                                                                                    E1G.IP_h472.DOM pl
+                                                                                                    0))
+                                                                                                (S6.leafDom6
+                                                                                                  (E1G.leafRec
+                                                                                                    E1G.IP_h472.R
+                                                                                                    E1G.IP_h472.VT
+                                                                                                    E1G.IP_h472.DOM pl
+                                                                                                    0))) →
+                                                                                            HC.ClassLB 472 20) →
+                                                                                      (∀ pl ∈ e472,
+                                                                                          S5.NoDecomp
+                                                                                            (S5.leafT
+                                                                                              (E1G.leafRec E1G.IP_h472.R
+                                                                                                E1G.IP_h472.VT
+                                                                                                E1G.IP_h472.DOM pl 0))
+                                                                                            (S5.leafN
+                                                                                              (E1G.leafRec E1G.IP_h472.R
+                                                                                                E1G.IP_h472.VT
+                                                                                                E1G.IP_h472.DOM pl 0))
+                                                                                            (S6.leafDom6
+                                                                                              (E1G.leafRec E1G.IP_h472.R
+                                                                                                E1G.IP_h472.VT
+                                                                                                E1G.IP_h472.DOM pl
+                                                                                                0))) →
+                                                                                        ∀ (e473 : List ℕ),
+                                                                                          (HC.RRAll →
+                                                                                              (∀ p ∈ HC.T_h473.RL,
+                                                                                                  HC.ClassLB p.1 p.2) →
+                                                                                                (∀ pl ∈ e473,
+                                                                                                    S5.NoDecomp
+                                                                                                      (S5.leafT
+                                                                                                        (E1G.leafRec
+                                                                                                          E1G.IP_h473.R
+                                                                                                          E1G.IP_h473.VT
+                                                                                                          E1G.IP_h473.DOM
+                                                                                                          pl 0))
+                                                                                                      (S5.leafN
+                                                                                                        (E1G.leafRec
+                                                                                                          E1G.IP_h473.R
+                                                                                                          E1G.IP_h473.VT
+                                                                                                          E1G.IP_h473.DOM
+                                                                                                          pl 0))
+                                                                                                      (S6.leafDom6
+                                                                                                        (E1G.leafRec
+                                                                                                          E1G.IP_h473.R
+                                                                                                          E1G.IP_h473.VT
+                                                                                                          E1G.IP_h473.DOM
+                                                                                                          pl 0))) →
+                                                                                                  HC.ClassLB 473 20) →
+                                                                                            (∀ pl ∈ e473,
+                                                                                                S5.NoDecomp
+                                                                                                  (S5.leafT
+                                                                                                    (E1G.leafRec
+                                                                                                      E1G.IP_h473.R
+                                                                                                      E1G.IP_h473.VT
+                                                                                                      E1G.IP_h473.DOM pl
+                                                                                                      0))
+                                                                                                  (S5.leafN
+                                                                                                    (E1G.leafRec
+                                                                                                      E1G.IP_h473.R
+                                                                                                      E1G.IP_h473.VT
+                                                                                                      E1G.IP_h473.DOM pl
+                                                                                                      0))
+                                                                                                  (S6.leafDom6
+                                                                                                    (E1G.leafRec
+                                                                                                      E1G.IP_h473.R
+                                                                                                      E1G.IP_h473.VT
+                                                                                                      E1G.IP_h473.DOM pl
+                                                                                                      0))) →
+                                                                                              ∀ (e475 : List ℕ),
+                                                                                                (HC.RRAll →
+                                                                                                    (∀ p ∈ HC.T_h475.RL,
+                                                                                                        HC.ClassLB p.1
+                                                                                                          p.2) →
+                                                                                                      ⋯) →
+                                                                                                  (∀ pl ∈ e475,
+                                                                                                      S5.NoDecomp
+                                                                                                        (S5.leafT
+                                                                                                          (E1G.leafRec
+                                                                                                            E1G.IP_h475.R
+                                                                                                            E1G.IP_h475.VT
+                                                                                                            E1G.IP_h475.DOM
+                                                                                                            pl 0))
+                                                                                                        (S5.leafN
+                                                                                                          (E1G.leafRec
+                                                                                                            E1G.IP_h475.R
+                                                                                                            E1G.IP_h475.VT
+                                                                                                            E1G.IP_h475.DOM
+                                                                                                            pl 0))
+                                                                                                        (S6.leafDom6
+                                                                                                          (E1G.leafRec
+                                                                                                            E1G.IP_h475.R
+                                                                                                            E1G.IP_h475.VT
+                                                                                                            E1G.IP_h475.DOM
+                                                                                                            pl 0))) →
+                                                                                                    ∀ (e476 : List ℕ), ⋯

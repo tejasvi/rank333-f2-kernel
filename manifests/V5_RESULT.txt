@@ -1,0 +1,15 @@
+2026-10-11T21:12:27Z V5 census, snapshot snap-20261011T2103Z-f674b4e775a4
+A0   PASS     sets: (a) final set = R22K.Final's dependency DAG (50 producers of its 757 top-store modules, closed under spec deps) = 150678 packages, 150678 of them done; (b) done, non-superseded records = 150688 (4 of them rebuilt in place: an earlier build of the id is superseded); (c) = (b) - (a) = 10 (V5_SETS.tsv): w1_29428.re.sb1_0: replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it; w1_29428.re.sb1_1: replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it; w1_29428.re.sb1_2: replaced by w1_29428.re.sb2 (its spec field "replaces"); no final-set package depends on it ...
+A1   PASS     package set: 150688 done, 1065 parked (superseded/retired), 0 not done; gated deps not done: 0 []
+A2   PASS     audit PASS in 150688 of 150688 done records, set (b) (67 by the offline re-audit; 0 records not cached); final set (a): PASS in 150678 of 150678; without PASS: 0 []
+B1   PASS     integrity: 150688 done packages verified (0 not yet); INTEGRITY problems 0
+B2   PASS     own hashes: OWNHASH problems 0
+B3   PASS     one name one content: NAME-CONFLICT 0, ENV-SHADOW 0, top-store conflicts 0
+B4   PASS     modhash gate: IMPORT-HASH 0, IMPORT-UNRESOLVED 0, ENV-MISSING 0, ENV-HASH 0
+B5   PASS     2026-10-11T01:30:53Z env check: 198234 files; changed 0, added 0, removed 0
+C1   PASS     external walk: 5008518 of 5010509 obligation entries walked, 1991 excluded (modules of retired packages only: no current producer, not on the final LEAN_PATH; walk/C1_excluded_retired.tsv); failed batches 0 (recorded 0); EXT STD union ['Classical.choice', 'Quot.sound', 'propext']
+C2   PASS     kmod_audit --root R22K.Final: PASS; external step: final_ext: 978815 obligations already walked by the union walk in passed batches (reused), 465 to walk now | top: 465 external obligations (331 env, 134 store in 48 packages, 0 unknown); 3 batches, 0 failed; manifest-resolved 113, tycheck 21, walked 331; std ['Classica
+C3   PASS     #print axioms: 5 of 5 public theorems use exactly [propext, Classical.choice, Quot.sound]
+C4   PASS     no sorryAx / ofReduceBool / trustCompiler: SUSPECT-NAME hits 0 (C1-C3 also report any extra axiom)
+C5   PASS     one kernel: kclosure_v1 (toolchain) sha256 over the done records with provenance: {'582f065494b04e34': 106020} (records predating provenance: 44601; kclosure_v1 is the only toolchain closure ever published)
+D1   PASS     final instance: 330f8a7baad895d088afba4423673bd13b9e1b5a83d8baa74495d2f7f3436737  src/R22K/Final.lean

@@ -1,0 +1,25 @@
+Census of R22K.Final's exported import closure (Lean's loader: importModules at the exported level), snapshot snap-20261011T2103Z-f674b4e775a4
+modules: 17017; uncovered: 0 (every top-store module has a current producing package with the same .olean sha256 and audit PASS)
+origin            modules      .olean bytes
+aesop                 135         17456656   upstream
+batteries             176         29446992   upstream
+importgraph            10           630544   upstream
+lean                 2142        320828176   upstream
+leansearchclient        4           950584   upstream
+mathlib              8095       1762165360   upstream
+plausible              13          2670976   upstream
+proofwidgets           12          5599664   upstream
+qq                     14          4225176   upstream
+R22K                    5           176064
+caseII                 73        953466976
+cc                     20          1774512
+e1g                     5         11824264
+hcapk                 183         22873624
+port                 5373       3311083568
+store                 757        221670040
+
+upstream (Lean toolchain, Mathlib and its dependencies): 10601 modules, 2143974128 bytes
+port (the frozen port): 5373 modules, 3311083568 bytes
+this project (R22K, caseII, cc, e1g, hcapk, store): 1043 modules, 1211785480 bytes
+total: 17017 modules, 6666843176 bytes
+top-store modules: 757, from 50 producing packages (census/producers.tsv); classification per module: closure.tsv.zst
